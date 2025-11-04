@@ -50,7 +50,7 @@ jobs:
 
       # Extract metadata (tags, labels) for Docker
       # https://github.com/docker/metadata-action
-      - name: Extract Docker metadata t
+      - name: Extract Docker metadata
         id: meta
         uses: docker/metadata-action@v5
         with:
