@@ -4,7 +4,7 @@ on: [push, workflow_dispatch]
 
 jobs:
   lint-and-test:
-    name: Lint and Test
+    name: Lint and Test1
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
